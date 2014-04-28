@@ -1,0 +1,1 @@
+define("deliteful/StarRating/nls/zh/StarRating",{"aria-label":"rating","aria-valuetext":"${value} stars","_flattened":true,"_pseudoRoot":{"zh-tw":true}});define('deliteful/nls/layer_zh', true);
