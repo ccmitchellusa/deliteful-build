@@ -16,14 +16,14 @@
 		});
 		requirejs.config({
 			packages:[
-				{name: 'delite', location: 'delite-build'},
-				{name: 'deliteful', location: 'deliteful-build'}
+				{name: 'dpointer', location: 'dpointer-build/'},
+				{name: 'delite', location: 'delite-build/'}
 			]
 		});
 	</script>
 
 	<script type="text/javascript">
-	require(["delite/layer", "deliteful/layer"], function(){
+	require(["dpointer/layer","delite/layer"], function(){
 		require([
 			"delite/register",
 			"deliteful/ProgressBar"

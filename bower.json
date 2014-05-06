@@ -1,21 +1,22 @@
 {
-	"name": "deliteful-build",
-	"version": "0.1.0-dev",
-	"dependencies": {
-		"requirejs": "2.1.x",
-		"dpointer": ">=0.1.0-dev",
-		"delite-build": ">=0.1.0-dev",
-		"dojo": ">=1.9.1",
-		"requirejs-dplugins": ">=0.1.0-dev"
-	},
-	"devDependencies": {
-		"deliteful-build": ">=0.1.0"
-	},
-	"ignore": [
-		".jshintrc",
-		".gitattributes",
-		".travis.yml",
-		"tests",
-		"CONTRIBUTING.md"
-	]
+  "name": "deliteful-build",
+  "version": "0.1.1-dev",
+  "dependencies": {
+    "dojo": ">=1.9.1",
+    "requirejs": "2.1.x",
+    "dcl": "1.1.x",
+    "requirejs-dplugins": ">=0.1.0-dev",
+    "dpointer-build": "git://github.com/clmath/dpointer-build.git",
+    "delite-build": "git://github.com/clmath/delite-build.git"
+  },
+  "ignore": [
+    ".jshintrc",
+    ".gitattributes",
+    ".travis.yml",
+    "tests",
+    "CONTRIBUTING.md"
+  ],
+  "devDependencies": {
+    "deliteful": "0.1.1-dev"
+  }
 }
